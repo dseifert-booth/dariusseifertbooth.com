@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-image: url("../resources/close-up-code-codes-239898-1030x687-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #DDD;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

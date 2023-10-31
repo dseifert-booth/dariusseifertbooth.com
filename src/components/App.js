@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './css/App.css';
+import '../css/App.css';
+import Header from './Header';
+import InnerBody from './InnerBody';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello world</h1>
-      </header>
+      <Header />
+      <InnerBody />
     </div>
   );
 }
