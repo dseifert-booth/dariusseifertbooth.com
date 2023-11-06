@@ -40,3 +40,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* header section */
+.Header {
+  background-color: #000;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin: 15px 30px;
+  text-decoration: none;
+  color: #0F0;
+  font-size: 20px;
+
+}
+
+ul>:nth-child(2) {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+/* inner body section */
+
+.InnerBody {
+  background-color: #000;
+  margin: 50px 250px;
+  height: 75%;
+}
+
+p {
+  color: #0F0;
+}
